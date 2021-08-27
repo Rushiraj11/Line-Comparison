@@ -31,4 +31,13 @@ public class LineComparison {
         }
         else System.out.println("Both lines are not equal in length.");
     }
+    static void compareTo(Double value1, Double value2) {
+        if (value1 == value2) {
+            System.out.println("Both the lines are equal in length.");
+        } else if (value1 > value2) {
+            System.out.println("Line 1 is greater than Line 2");
+        } else {
+            System.out.println("Line 2 is greater than Line 1");
+        }
+    }
 }
